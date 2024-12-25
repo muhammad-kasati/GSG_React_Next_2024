@@ -1,0 +1,49 @@
+.form-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-component input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-component label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.form-component label input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.form-component button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: #646cff;
+  transition: background-color 0.3s;
+}
+
+.form-component button:hover {
+  background-color: #0056b3;
+}

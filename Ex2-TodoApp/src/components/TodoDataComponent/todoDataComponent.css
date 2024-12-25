@@ -1,0 +1,31 @@
+.todo-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.todo-data div {
+  flex: 1;
+  text-align: center;
+}
+
+.todo-data div:first-child {
+  color: #007bff;
+}
+
+.todo-data div:nth-child(2) {
+  color: #28a745;
+}
+
+.todo-data div:last-child {
+  color: #dc3545;
+}

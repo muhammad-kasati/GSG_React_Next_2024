@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+}
